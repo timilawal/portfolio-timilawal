@@ -26,6 +26,18 @@ a span {
   color: #2e2c2c;
 }
 
+.button {
+  padding: 1rem 2rem;
+  background: #3d033d;
+  color: #dfdbdb;
+  letter-spacing: 0.1rem;
+  border: none;
+}
+
+.button:hover {
+  background: #250225;
+}
+
 .main {
   height: 100vh;
 }
@@ -57,18 +69,6 @@ a span {
   font-weight: 400;
   margin: 2rem 0;
   color: #2e2c2c;
-}
-
-.main .titlle .button {
-  padding: 1rem 2rem;
-  background: #3d033d;
-  color: #dfdbdb;
-  letter-spacing: 0.1rem;
-  border: none;
-}
-
-.main .titlle .button:hover {
-  background: #250225;
 }
 
 .heading {
@@ -115,5 +115,14 @@ a span {
 
 .about .me {
   text-align: center;
+}
+
+.about .about-me {
+  width: 90%;
+  margin: 2rem 0 0 2.5rem;
+}
+
+.about .button {
+  margin: 2rem 0 2rem 2.5rem;
 }
 /*# sourceMappingURL=styles.css.map */
