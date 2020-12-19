@@ -2,8 +2,8 @@
   -webkit-appearance: none;
   margin: 0;
   padding: 0;
-  background: #000;
-  color: #fff;
+  background: #dfdbdb;
+  color: #000;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -13,17 +13,17 @@ a {
 }
 
 a:hover {
-  border-bottom: #570357 3px solid;
-  border-left: #570357 3px solid;
+  border-bottom: #3d033d 3px solid;
+  border-left: #3d033d 3px solid;
   padding: 0 0 0.3rem 0.3rem;
 }
 
 a:focus {
-  border-bottom: #570357 3px solid;
+  border-bottom: #3d033d 3px solid;
 }
 
 a span {
-  color: #8b8686;
+  color: #2e2c2c;
 }
 
 .main {
@@ -56,13 +56,13 @@ a span {
   font-size: 1.4rem;
   font-weight: 400;
   margin: 2rem 0;
-  color: #8b8686;
+  color: #2e2c2c;
 }
 
 .main .titlle .button {
   padding: 1rem 2rem;
-  background: #570357;
-  color: #fff;
+  background: #3d033d;
+  color: #dfdbdb;
   letter-spacing: 0.1rem;
   border: none;
 }
@@ -74,7 +74,7 @@ a span {
 .heading {
   font-size: 1.3rem;
   padding-bottom: 1rem;
-  border-bottom: #570357 3px solid;
+  border-bottom: #3d033d 3px solid;
   width: 4rem;
   margin-bottom: 2rem;
   margin-left: 1rem;
