@@ -1,14 +1,14 @@
-$white:#fff;
-$gray: #8b8686;
+$white:#dfdbdb;
+$gray: #2e2c2c;
 $black: #000;
-$purple: #570357;
+$purple: #3d033d;
 
 *{
     -webkit-appearance: none;
     margin: 0;
     padding: 0;
-    background: $black;
-    color: $white;
+    background: $white;
+    color: $black;
     font-family: 'Raleway', sans-serif;
 }
 
