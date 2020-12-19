@@ -12,6 +12,23 @@ $purple: #570357;
     font-family: 'Raleway', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    font-size: 1rem; 
+    &:hover{
+        border-bottom: $purple 3px solid;
+        border-left: $purple 3px solid;
+        padding: 0 0 0.3rem 0.3rem;
+    }
+    &:focus{
+        border-bottom: $purple 3px solid;
+    }
+
+    span{
+        color: $gray;
+    }
+}
+
 .main{
     height: 100vh;
 
@@ -20,23 +37,6 @@ $purple: #570357;
         list-style: none;
         justify-content: space-around;
         padding: 2rem 0;
-
-        a{
-            text-decoration: none;
-            font-size: 1rem; 
-            &:hover{
-                border-bottom: $purple 3px solid;
-                border-left: $purple 3px solid;
-                padding: 0 0 0.3rem 0.3rem;
-            }
-            &:active{
-                border-bottom: $purple 3px solid;
-            }
-
-            span{
-                color: $gray;
-            }
-        }
     }
 
     .titlle{
@@ -50,7 +50,7 @@ $purple: #570357;
             margin-top: 5rem;
         }
         .description{
-            font-size: 1.2 rem;
+            font-size: 1.4rem;
             font-weight: 400;
             margin: 2rem 0;
             color: $gray;
@@ -61,6 +61,59 @@ $purple: #570357;
             color: $white;
             letter-spacing: 0.1rem;
             border: none;
+            &:hover{
+                background: #250225;
+            }
         }
+    }
+}
+
+.heading{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    border-bottom: $purple 3px solid;
+    width: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.projects{
+
+    .project{
+        margin-left: 2rem;
+        .project-image{
+            width: 85%;
+            margin-top: 3rem;
+        }
+
+        .project-name{
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 1.5rem auto;
+        }
+
+        .project-detail{
+            margin-bottom: 1rem;
+            width: 95%;
+        }
+
+        ul{
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.break{
+    margin-top: 5rem;
+
+}
+
+.about{
+    .heading{
+        margin-top: 10rem;
+    }
+    .me{
+        text-align: center;
     }
 }
