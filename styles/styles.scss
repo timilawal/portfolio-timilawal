@@ -29,6 +29,17 @@ a{
     }
 }
 
+.button{
+    padding: 1rem 2rem;
+    background: $purple;
+    color: $white;
+    letter-spacing: 0.1rem;
+    border: none;
+    &:hover{
+        background: #250225;
+    }
+}
+
 .main{
     height: 100vh;
 
@@ -55,16 +66,7 @@ a{
             margin: 2rem 0;
             color: $gray;
         }
-        .button{
-            padding: 1rem 2rem;
-            background: $purple;
-            color: $white;
-            letter-spacing: 0.1rem;
-            border: none;
-            &:hover{
-                background: #250225;
-            }
-        }
+        
     }
 }
 
@@ -115,5 +117,12 @@ a{
     }
     .me{
         text-align: center;
+    }
+    .about-me{
+        width: 90%;
+        margin:2rem 0 0 2.5rem;
+    }
+    .button{
+        margin: 2rem 0 2rem 2.5rem;
     }
 }
