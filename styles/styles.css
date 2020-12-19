@@ -1,0 +1,69 @@
+* {
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main {
+  height: 100vh;
+}
+
+.main .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.main .list a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.main .list a:hover {
+  border-bottom: #570357 3px solid;
+  border-left: #570357 3px solid;
+  padding: 0 0 0.3rem 0.3rem;
+}
+
+.main .list a:active {
+  border-bottom: #570357 3px solid;
+}
+
+.main .list a span {
+  color: #8b8686;
+}
+
+.main .titlle {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main .titlle .name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+
+.main .titlle .description {
+  font-size: 1.2 rem;
+  font-weight: 400;
+  margin: 2rem 0;
+  color: #8b8686;
+}
+
+.main .titlle .button {
+  padding: 1rem 2rem;
+  background: #570357;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  border: none;
+}
+/*# sourceMappingURL=styles.css.map */
