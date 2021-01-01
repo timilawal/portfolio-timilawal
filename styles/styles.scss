@@ -1,23 +1,25 @@
 $white:#dfdbdb;
-$gray: #2e2c2c;
-$black: #000;
-$purple: #3d033d;
+$gray: #949494;
+$black: #0e0d0d;
+$purple: #4e044e;
 
 *{
     -webkit-appearance: none;
     margin: 0;
     padding: 0;
-    background: $white;
-    color: $black;
+    background: $black;
+    color: $white;
     font-family: 'Raleway', sans-serif;
 }
 
+
 a{
     text-decoration: none;
-    font-size: 1rem; 
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
     &:hover{
         border-bottom: $purple 3px solid;
-        border-left: $purple 3px solid;
         padding: 0 0 0.3rem 0.3rem;
     }
     &:focus{
@@ -26,6 +28,9 @@ a{
 
     span{
         color: $gray;
+        &:hover{
+            color: $purple;
+        }
     }
 }
 
@@ -58,7 +63,7 @@ a{
         .name{
             font-size: 1.8rem;
             font-weight: 500;
-            margin-top: 5rem;
+            margin-top: 10rem;
         }
         .description{
             font-size: 1.4rem;
@@ -81,6 +86,10 @@ a{
 
 .projects{
 
+    .heading{
+        padding-top: 2rem;
+    }
+
     .project{
         margin-left: 2rem;
         .project-image{
@@ -95,13 +104,13 @@ a{
         }
 
         .project-detail{
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
             width: 95%;
         }
 
         ul{
-            margin-left: 2rem;
-            margin-bottom: 1rem;
+            margin-left: 1rem;
+            margin-bottom: 2rem;
         }
     }
 }
@@ -113,16 +122,39 @@ a{
 
 .about{
     .heading{
-        margin-top: 10rem;
+        padding-top: 3rem;
     }
     .me{
         text-align: center;
     }
-    .about-me{
-        width: 90%;
-        margin:2rem 0 0 2.5rem;
+    .details{
+        .about-me{
+            width: 90%;
+            margin:2rem 0 0 2.5rem;
+        }
     }
+    
     .button{
         margin: 2rem 0 2rem 2.5rem;
+    }
+}
+
+.contact{
+    height: 100vh;
+
+    .heading{
+        padding-top: 3rem;
+    }
+    .contact-details{
+            width: 90%;
+            margin:2rem 0 0 2.5rem;
+    }
+
+    .contact-links{
+        text-align: center;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding: 2rem 0;
     }
 }
