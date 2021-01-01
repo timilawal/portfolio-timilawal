@@ -2,33 +2,38 @@
   -webkit-appearance: none;
   margin: 0;
   padding: 0;
-  background: #dfdbdb;
-  color: #000;
+  background: #0e0d0d;
+  color: #dfdbdb;
   font-family: 'Raleway', sans-serif;
 }
 
 a {
   text-decoration: none;
   font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }
 
 a:hover {
-  border-bottom: #3d033d 3px solid;
-  border-left: #3d033d 3px solid;
+  border-bottom: #4e044e 3px solid;
   padding: 0 0 0.3rem 0.3rem;
 }
 
 a:focus {
-  border-bottom: #3d033d 3px solid;
+  border-bottom: #4e044e 3px solid;
 }
 
 a span {
-  color: #2e2c2c;
+  color: #949494;
+}
+
+a span:hover {
+  color: #4e044e;
 }
 
 .button {
   padding: 1rem 2rem;
-  background: #3d033d;
+  background: #4e044e;
   color: #dfdbdb;
   letter-spacing: 0.1rem;
   border: none;
@@ -61,23 +66,27 @@ a span {
 .main .titlle .name {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .main .titlle .description {
   font-size: 1.4rem;
   font-weight: 400;
   margin: 2rem 0;
-  color: #2e2c2c;
+  color: #949494;
 }
 
 .heading {
   font-size: 1.3rem;
   padding-bottom: 1rem;
-  border-bottom: #3d033d 3px solid;
+  border-bottom: #4e044e 3px solid;
   width: 4rem;
   margin-bottom: 2rem;
   margin-left: 1rem;
+}
+
+.projects .heading {
+  padding-top: 2rem;
 }
 
 .projects .project {
@@ -96,13 +105,13 @@ a span {
 }
 
 .projects .project .project-detail {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 95%;
 }
 
 .projects .project ul {
-  margin-left: 2rem;
-  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 
 .break {
@@ -110,19 +119,43 @@ a span {
 }
 
 .about .heading {
-  margin-top: 10rem;
+  padding-top: 3rem;
 }
 
 .about .me {
   text-align: center;
 }
 
-.about .about-me {
+.about .details .about-me {
   width: 90%;
   margin: 2rem 0 0 2.5rem;
 }
 
 .about .button {
   margin: 2rem 0 2rem 2.5rem;
+}
+
+.contact {
+  height: 100vh;
+}
+
+.contact .heading {
+  padding-top: 3rem;
+}
+
+.contact .contact-details {
+  width: 90%;
+  margin: 2rem 0 0 2.5rem;
+}
+
+.contact .contact-links {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem 0;
 }
 /*# sourceMappingURL=styles.css.map */
