@@ -126,9 +126,9 @@ a span:hover {
   text-align: center;
 }
 
-.about .details .about-me {
+.about .details {
   width: 90%;
-  margin: 2rem 0 0 2.5rem;
+  margin: 2rem 1rem 0 2.5rem;
 }
 
 .about .button {
@@ -145,7 +145,7 @@ a span:hover {
 
 .contact .contact-details {
   width: 90%;
-  margin: 2rem 0 0 2.5rem;
+  margin: 2rem 1rem 0 2.5rem;
 }
 
 .contact .contact-links {
