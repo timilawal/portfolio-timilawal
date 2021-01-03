@@ -9,30 +9,40 @@
 }
 
 .list {
-  -webkit-box-shadow: 0 2px 0 1px #20202033;
-          box-shadow: 0 2px 0 1px #20202033;
+  -webkit-box-shadow: 0 2px 0 0 #000000d0;
+          box-shadow: 0 2px 0 0 #000000d0;
   list-style: none;
   padding: 1rem 3rem 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .list .logo {
   font-size: 1.2rem;
-  text-align: right;
   padding-bottom: 1rem;
   font-weight: 600;
+  padding: 1rem 0 0 10px;
+  text-transform: uppercase;
+}
+
+.list .hamburger .line {
+  width: 30px;
+  height: 2px;
+  background: #000000;
+  margin: 5px;
+}
+
+.list .hamburger .line2 {
+  width: 26px;
+  height: 2px;
+  background: #000000;
+  margin-left: 10px;
 }
 
 .list .list-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.list .list-links li {
-  margin-left: 1rem;
+  display: none;
 }
 
 a {
@@ -60,12 +70,14 @@ a span:hover {
 }
 
 .button {
-  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  padding: 1rem 1.5rem;
   background: #3f033f;
   color: #f0f0f0;
   letter-spacing: 0.1rem;
   border: none;
   border-radius: 10px;
+  margin: 0 -3rem;
 }
 
 .button:hover {
@@ -86,6 +98,10 @@ a span:hover {
   font-size: 1.8rem;
   font-weight: 500;
   margin-top: 10rem;
+}
+
+.main .titlle .timi {
+  margin-left: -1rem;
 }
 
 .main .titlle .description {
