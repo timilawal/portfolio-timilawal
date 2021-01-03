@@ -203,4 +203,26 @@ a span:hover {
       justify-content: space-around;
   padding: 2rem 0;
 }
+
+@media screen and (min-width: 760px) {
+  .button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .main .titlle .name {
+    font-size: 2rem;
+  }
+  .main .titlle .description {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .about .about-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about .about-inner .me {
+    margin-left: 1rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
