@@ -2,9 +2,37 @@
   -webkit-appearance: none;
   margin: 0;
   padding: 0;
-  background: #0e0d0d;
-  color: #dfdbdb;
+  background: #f0f0f0;
+  color: #000000;
   font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+.list {
+  -webkit-box-shadow: 0 2px 0 1px #20202033;
+          box-shadow: 0 2px 0 1px #20202033;
+  list-style: none;
+  padding: 1rem 3rem 1rem 0;
+}
+
+.list .logo {
+  font-size: 1.2rem;
+  text-align: right;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+.list .list-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.list .list-links li {
+  margin-left: 1rem;
 }
 
 a {
@@ -15,28 +43,29 @@ a {
 }
 
 a:hover {
-  border-bottom: #4e044e 3px solid;
+  border-bottom: #3f033f 3px solid;
   padding: 0 0 0.3rem 0.3rem;
 }
 
 a:focus {
-  border-bottom: #4e044e 3px solid;
+  border-bottom: #3f033f 3px solid;
 }
 
 a span {
-  color: #949494;
+  color: #363636;
 }
 
 a span:hover {
-  color: #4e044e;
+  color: #3f033f;
 }
 
 .button {
   padding: 1rem 2rem;
-  background: #4e044e;
-  color: #dfdbdb;
+  background: #3f033f;
+  color: #f0f0f0;
   letter-spacing: 0.1rem;
   border: none;
+  border-radius: 10px;
 }
 
 .button:hover {
@@ -45,16 +74,6 @@ a span:hover {
 
 .main {
   height: 100vh;
-}
-
-.main .list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 2rem 0;
 }
 
 .main .titlle {
@@ -73,13 +92,13 @@ a span:hover {
   font-size: 1.4rem;
   font-weight: 400;
   margin: 2rem 0;
-  color: #949494;
+  color: #363636;
 }
 
 .heading {
   font-size: 1.3rem;
   padding-bottom: 1rem;
-  border-bottom: #4e044e 3px solid;
+  border-bottom: #3f033f 3px solid;
   width: 4rem;
   margin-bottom: 2rem;
   margin-left: 1rem;
@@ -128,11 +147,11 @@ a span:hover {
 
 .about .details {
   width: 90%;
-  margin: 2rem 1rem 0 2.5rem;
+  margin: 2rem 1rem 0 2rem;
 }
 
 .about .button {
-  margin: 2rem 0 2rem 2.5rem;
+  margin: 2rem 0 2rem 2rem;
 }
 
 .contact {
@@ -145,7 +164,7 @@ a span:hover {
 
 .contact .contact-details {
   width: 90%;
-  margin: 2rem 1rem 0 2.5rem;
+  margin: 2rem 1rem 0 2rem;
 }
 
 .contact .contact-links {
