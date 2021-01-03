@@ -1,17 +1,37 @@
-$white:#dfdbdb;
-$gray: #949494;
-$black: #0e0d0d;
-$purple: #4e044e;
+$white:#f0f0f0;
+$gray: #363636;
+$black: #000000;
+$purple: #3f033f;
 
 *{
     -webkit-appearance: none;
     margin: 0;
     padding: 0;
-    background: $black;
-    color: $white;
+    background: $white;
+    color: $black;
     font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
 }
 
+.list{
+    box-shadow: 0 2px 0 1px #20202033;
+    list-style: none;
+    padding: 1rem 3rem 1rem 0;
+    .logo{
+        font-size: 1.2rem;
+        text-align: right;
+        padding-bottom: 1rem;
+        font-weight: 600;
+    }
+    .list-links{
+        display: flex;
+        justify-content: flex-end;
+        li{
+            margin-left: 1rem;
+        }
+    }
+    
+}
 
 a{
     text-decoration: none;
@@ -40,6 +60,7 @@ a{
     color: $white;
     letter-spacing: 0.1rem;
     border: none;
+    border-radius: 10px;
     &:hover{
         background: #250225;
     }
@@ -47,14 +68,6 @@ a{
 
 .main{
     height: 100vh;
-
-    .list{
-        display: flex;
-        list-style: none;
-        justify-content: space-around;
-        padding: 2rem 0;
-    }
-
     .titlle{
         width: 50%;
         margin: 0 auto;
@@ -129,11 +142,11 @@ a{
     }
     .details{
             width: 90%;
-            margin:2rem 1rem 0 2.5rem;
+            margin:2rem 1rem 0 2rem;
     }
     
     .button{
-        margin: 2rem 0 2rem 2.5rem;
+        margin: 2rem 0 2rem 2rem;
     }
 }
 
@@ -145,7 +158,7 @@ a{
     }
     .contact-details{
             width: 90%;
-            margin:2rem 1rem 0 2.5rem;
+            margin:2rem 1rem 0 2rem;
     }
 
     .contact-links{
