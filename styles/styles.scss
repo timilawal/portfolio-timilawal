@@ -14,21 +14,36 @@ $purple: #3f033f;
 }
 
 .list{
-    box-shadow: 0 2px 0 1px #20202033;
+    box-shadow: 0 2px 0 0 #000000d0;
     list-style: none;
     padding: 1rem 3rem 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     .logo{
         font-size: 1.2rem;
-        text-align: right;
         padding-bottom: 1rem;
         font-weight: 600;
+        padding: 1rem 0 0 10px;
+        text-transform: uppercase;
+    }
+    .hamburger{
+        .line{
+            width: 30px;
+            height: 2px;
+            background: #000000;
+            margin: 5px;
+        }
+        .line2{
+            width: 26px;
+            height: 2px;
+            background: #000000;
+            margin-left: 10px;
+        }
     }
     .list-links{
-        display: flex;
-        justify-content: flex-end;
-        li{
-            margin-left: 1rem;
-        }
+        display: none;
     }
     
 }
@@ -55,12 +70,14 @@ a{
 }
 
 .button{
-    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
     background: $purple;
     color: $white;
     letter-spacing: 0.1rem;
     border: none;
     border-radius: 10px;
+    margin: 0 -3rem;
     &:hover{
         background: #250225;
     }
@@ -77,6 +94,9 @@ a{
             font-size: 1.8rem;
             font-weight: 500;
             margin-top: 10rem;
+        }
+        .timi{
+            margin-left: -1rem;
         }
         .description{
             font-size: 1.4rem;
