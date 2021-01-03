@@ -196,3 +196,30 @@ a{
         padding: 2rem 0;
     }
 }
+
+@media screen and (min-width:760px){
+    .button{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    .main{
+        .titlle{
+            .name{
+                font-size: 2rem;
+            }
+            .description{
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+            
+        }
+    }
+    .about{
+        .about-inner{
+            display: flex;
+            .me{
+                margin-left: 1rem;
+            }
+        }
+    }
+}
